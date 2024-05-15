@@ -25,6 +25,6 @@
  20/06/2020:
 
  SELECT * 
- FROM `exams`
- WHERE `hour` LIKE '14%' AND `date` = '2020-06-20';
+ FROM `exams` 
+ WHERE `hour` BETWEEN '14:00:00' AND '24:00:00' AND `date` = '2020-06-20';
     
