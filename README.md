@@ -32,4 +32,8 @@
     SELECT *
    FROM `degrees`
    WHERE `name` LIKE 'Corso di laurea magistrale%';
+
+7)  Da quanti dipartimenti è composta l'università?
+    SELECT COUNT(*) AS `number_of_departments`
+    FROM `departments`;
     
