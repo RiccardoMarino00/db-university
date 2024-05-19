@@ -49,7 +49,9 @@
 ```
 
 ### 8)  Quanti sono gli insegnanti che non hanno un numero di telefono?
+```sql
    SELECT *
    FROM `teachers`
    WHERE `phone` IS NOT NULL;
+```
     
